@@ -13,8 +13,11 @@
 .color-black{
 	color: #000;
 }
+.color-white{
+	color: #fff;
+}
 .bg-color-fore{
-	background-color: #ffe;
+	background-color: #EAA218;;
 }
 .bg-color-white{
 	background-color: #fff;
@@ -33,6 +36,11 @@
 	/*height: 40px;*/
 	line-height: 40px;
 	color: #fff;
+}
+.coe-main-header-classic{
+	line-height: 40px;
+	color: #fff;
+	background: #000;
 }
 
 .coe-main-footer{
@@ -67,6 +75,17 @@
 	border-radius: 0px;
 	font-weight: bold;
 }
+.btn-coe-white{
+	background: #fff;
+	color: #000;
+	border-radius: 0px !important;
+	border: 1px solid #EAA218;
+	font-weight: bold;
+}
+.btn-coe-white:hover{
+	background: #EAA218;
+	color: #fff;
+}
 
 
 .coe-bg-gradient{
@@ -80,6 +99,9 @@
 	background: linear-gradient(135deg,  #ff91f2 0%,#8bd8ed 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff91f2', endColorstr='#8bd8ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+}
+.coe-bg-classic{
+	background: #383434;;
 }
 
 /*menu*/
@@ -113,13 +135,16 @@
 	text-shadow: 0px 0px 3px #505050;
 	font-size: 16px;
 	position: absolute;
-    bottom: 0;	
+    bottom: 0;
     width: 90%;
 }
 
 .coe-panel-has-background{
 	background: rgba(255, 255, 255, 0.21);
 	box-shadow: 0 0 10px #aaa;
+}
+.coe-panel-right{
+	background: #277C90;
 }
 .word-result-list {
 	overflow-y: scroll;
@@ -158,4 +183,35 @@
 
 .hide{
 	display: none;
+}
+
+.menu-box{
+	padding-bottom: 20px;
+}
+.menu-item{
+	background: #EAA218;
+	padding: 10px;
+	height: 120px;
+}
+.menu-item .title{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 34px;
+	color:#fff;
+}
+.menu-item .icon{
+	width:30%;
+	height:70%;
+}
+.timmer{
+	font-size: 65px;
+}
+.dater{
+	font-size: 30px;
+}
+
+
+/*overide*/
+.form-control{
+	border-radius: 0px !important;
 }

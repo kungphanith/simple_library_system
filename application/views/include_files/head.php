@@ -61,4 +61,4 @@
 			}
 		</script>
 	</head>
-	<body class="coe-bg-gradient " >
+	<body class="coe-bg-classic" >

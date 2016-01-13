@@ -1,9 +1,10 @@
 <div class="col-xs-12" >
-	<div class="row coe-main-header" >
+	<div class="row coe-main-header-classic" >
 		<div class="col-xs-12" >
-			<span class="color-black" > <b> វចនានុក្រម ខ្មែរ អង់គ្លេស (ខ្មែរកូដ)  </b><i> <?= $title ?> </i> </span>
-			<span class="pull-right">
+			<span class="color-white" > <b> កម្មវិធីគ្រប់គ្រងបណ្ណាល័យ  </b>LIBRARY MANAGEMENT SYSTEM​​<i> Version 1.0 </i> </span>
+			<span class="pull-right color-white">
 				 <!-- Some statement here -->
+				 គង់ ផាណីត | ចាកចេញ
 			</span>
 		</div>
 	</div>
@@ -28,7 +29,6 @@
       	</ol>
       </div>
       <div class="modal-footer">
-        
         <button type="button" id="confirm-no" class="btn btn-default" data-dismiss="modal">OK</button>
       </div>
     </div>

@@ -1,0 +1,27 @@
+Module and Menu
+
+Menu
+- Student Manager
+  + CRUID process
+  + generate Library card
+
+- Book Manager
+  + CRUID Process
+  + Query Book
+
+- Borrow Manager
+  + Make a borrow
+  + Return checkup
+  + Report Monthly
+
+- User Manager
+  + CRUID process
+
+- Equipment Manager
+  + CRUID process
+  + Query
+  + Report
+
+
+Other Feature
+  System Tracking

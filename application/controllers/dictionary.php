@@ -1,8 +1,15 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Dictionary extends CI_Controller {
+	public function login(){
+		$this->load->view('login');
+	}
+	function book_management(){
+		$this->load->view('book_management');
+	}
+
 	public function index()
 	{
-		$this->load->view('view_main');
+		$this->load->view('main');
 	}
 	function search(){ /*Ajax responder*/
 		$keyword = strtolower($this->input->post('key'));
