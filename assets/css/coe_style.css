@@ -1,0 +1,161 @@
+/*First Generation */
+/*Author: Kung phanith*/
+/*Date: 9-Nov-015*/
+/*Version: 1.0 */
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%  Code of Everything %%%%%%%%%%%%%%%%%*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.color-fore{
+	color: #fff;
+}
+.color-black{
+	color: #000;
+}
+.bg-color-fore{
+	background-color: #ffe;
+}
+.bg-color-white{
+	background-color: #fff;
+}
+.full{
+	width: 100%;
+}
+.border-radius{
+	border-radius: 3px;
+}
+
+.coe-main-header{
+	/*background: #000;*/
+	background: rgba(255, 255, 255, 0.21);
+	box-shadow: 0 0 10px #aaa;
+	/*height: 40px;*/
+	line-height: 40px;
+	color: #fff;
+}
+
+.coe-main-footer{
+	bottom: 0;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.21);
+	box-shadow: 0 0 10px #aaa;
+	padding-top: 10px;
+}
+
+
+
+.coe-login-form{
+	/*background-color: #000;*/
+	background-color:rgba(255, 255, 255, 0.21);
+	box-shadow: 0 0 15px #6B6B6B;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.coe-input{
+	/*border-radius: 0px;*/
+	border: 2px solid #aaa;
+	/*background-color: #000;*/
+	color: #000;
+}
+
+.coe-btn{
+	background-color: #bbb;
+	color: #000;
+	border: 2px solid #eee;
+	border-radius: 0px;
+	font-weight: bold;
+}
+
+
+.coe-bg-gradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff91f2+0,8bd8ed+100 */
+	background: #ff91f2; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ff91f2 0%, #8bd8ed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff91f2), color-stop(100%,#8bd8ed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #ff91f2 0%,#8bd8ed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #ff91f2 0%,#8bd8ed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #ff91f2 0%,#8bd8ed 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #ff91f2 0%,#8bd8ed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff91f2', endColorstr='#8bd8ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/*menu*/
+.coe-menu-icon{
+	background-color:rgba(255, 255, 255, 0.21);
+	box-shadow: 0 0 15px #aaa;
+	padding: 30px;
+	border: 3px solid #eee;
+	border-radius: 7px;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.coe-menu-icon:hover {
+	background-color:rgb(184, 204, 222);
+	box-shadow: 0 0 20px #6a6a6a;
+}
+
+.coe-menu-icon i{
+	font-size: 120px;
+}
+
+.coe-menu-icon p{
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0px 0px 3px #505050;
+	font-size: 16px;
+	position: absolute;
+    bottom: 0;	
+    width: 90%;
+}
+
+.coe-panel-has-background{
+	background: rgba(255, 255, 255, 0.21);
+	box-shadow: 0 0 10px #aaa;
+}
+.word-result-list {
+	overflow-y: scroll;
+	cursor: pointer;
+}
+.word-result-list p{
+	font-weight: bold;
+	cursor: pointer;
+}
+.word-result-list p:hover{
+	color: #fff;
+}
+
+
+.word-result-show{
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+
+.coe-scroll::-webkit-scrollbar{
+	width: 2px;
+	height: 0px;
+}
+.coe-scroll::-webkit-scrollbar-track{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.coe-scroll::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background:rgba(200,0,0,0.5);
+	background:#ff7e00;
+}
+.coe-scroll::-webkit-scrollbar-thumb:window-inactive{
+	background:rgba(255,0,0,0.4);
+}
+
+.hide{
+	display: none;
+}

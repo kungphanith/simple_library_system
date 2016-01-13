@@ -1,0 +1,11 @@
+books(#id, title, author_name, publisher, year, other, created_date, updated_at, is_deleted )
+
+students(#id, name_khmer, name_latin, gender, phone, email, DOB, school_name, degree, other, created_at, updated_at, is_deleted)
+
+borrow(#id, book_id, student_id, date, return_date)
+
+Users(#id, username, email, encryped_password, is_admin, is_active, created_at, updated_at, is_deleted)
+
+tracks(#id, user_id, action, description, date)
+
+equipment(#id, name, quantity, price, description, other, created_at, updated_at)
