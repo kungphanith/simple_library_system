@@ -2,10 +2,14 @@
 	<div class="row coe-main-header-classic" >
 		<div class="col-xs-12" >
 			<span class="color-white" > <b> កម្មវិធីគ្រប់គ្រងបណ្ណាល័យ  </b>LIBRARY MANAGEMENT SYSTEM​​<i> Version 1.0 </i> </span>
-			<span class="pull-right color-white">
+			
+      <span class="pull-right color-white">
 				 <!-- Some statement here -->
-				 គង់ ផាណីត | ចាកចេញ
+         <?php if ($this->session->userdata('loged_in')){ ?>
+				 <?= $this->session->userdata('name_khmer') ?> | <a href="<?= base_url() ?>authorize/logout">logout</a>
+         <?php } ?>
 			</span>
+
 		</div>
 	</div>
 </div>

@@ -192,6 +192,11 @@
 	background: #EAA218;
 	padding: 10px;
 	height: 120px;
+	cursor: pointer;
+}
+.menu-item:hover{
+	background: #ECA723;
+	box-shadow: 3px 3px 20px #000;
 }
 .menu-item .title{
 	font-size: 18px;
@@ -210,6 +215,18 @@
 	font-size: 30px;
 }
 
+.coe-modal{
+
+}
+.coe-modal .modal-content{
+	border-radius: 0px !important;
+}
+.link{
+	cursor: pointer;
+}
+.link:hover{
+	color: #aaa;
+}
 
 /*overide*/
 .form-control{

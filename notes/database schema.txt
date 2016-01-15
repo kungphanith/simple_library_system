@@ -8,6 +8,6 @@ borrowing(#id, book_id, student_id, is_inroom, borrow_date, lend_by, return_date
 
 Users(#id, username, email, encryped_password, full_name_kh, latin_name, is_admin, is_active, created_at, updated_at, is_deleted)
 
-tracking(#id, user_id, action, description, date)
+tracking(#id, user_id, action, description, created_at)
 
-equipment(#id, name, quantity, price, description, other, created_at, updated_at)
+equipment(#id, name, quantity, price, description, created_at, updated_at)
