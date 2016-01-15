@@ -5,10 +5,13 @@
 		<link rel="stylesheet" type="text/css" href="<?= base_url() ?>components/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="<?= base_url() ?>components/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/coe_style.css">
+		<link rel="stylesheet" type="text/css" href="<?= base_url() ?>components/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.css">
 		<script type="text/javascript" src="<?= base_url() ?>components/jquery.min.js"></script>
 		<script type="text/javascript" src="<?= base_url() ?>components/bootstrap.min.js"></script>
+		<script type="text/javascript" src="<?= base_url() ?>components/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.js"></script>
 		<script type="text/javascript">
 			$('document').ready(function(){
+				$('.datepicker').datepicker({format: 'yyyy/mm/dd'});
 				$('#search-panel').hide().fadeIn().slideDown();
 			});
 			function translate_word(_id){

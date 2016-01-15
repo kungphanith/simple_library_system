@@ -12,12 +12,15 @@
 
           <div class="form-group">
             <label for="name-khmer" >ឈ្មោះខ្មែរ</label>
-            <input type="text" class="form-control" id="name-khmer" tabindex="1" >
+            <input type="text" class="form-control" id="name-khmer" tabindex="1" required >
           </div>
 
           <div class="form-group">
             <label for="name-khmer" >ភេទ</label>
-            <input type="text" class="form-control" id="gender" tabindex="3" >
+            <select id="gender" tabindex="3" class="form-control" required>
+              <option value="M" >Male</option>
+              <option value="F" >Female</option>
+            </select>
           </div>
 
           <div class="form-group">
@@ -40,17 +43,17 @@
 
           <div class="form-group">
             <label for="name-khmer" >ឈ្មោះជាអក្សរឡាតាំង</label>
-            <input type="text" class="form-control" id="latin-name" tabindex="2" >
+            <input type="text" class="form-control" id="latin-name" tabindex="2" required >
           </div>
 
           <div class="form-group">
             <label for="name-khmer" >លេខទូរស័ព្ទ</label>
-            <input type="text" class="form-control" id="phone" tabindex="4" >
+            <input type="text" class="form-control" id="phone" tabindex="4" required >
           </div>
 
           <div class="form-group">
             <label for="name-khmer" >ថ្ងៃខែឆ្នាំកំណើត</label>
-            <input type="text" class="form-control" id="dob" tabindex="6" >
+            <input type="text" class="form-control datepicker" id="dob" tabindex="6" required >
           </div>
           <div class="form-group">
             <label for="name-khmer" >ផ្សេងៗ</label>
@@ -77,6 +80,14 @@
     $('#student-form').modal();
   }
   function createStudent(){
+    if ($('input[required]').val() == ""){
+      $('#student-form-result').html('Please select required field');
+      $('input[required]').css('border', "1px solid red");
+      return;
+    }
+    else{
+      $('input[required]').css('border', "1px solid #bbb");
+    }
     $.ajax({
       type: "POST",
       url: "<?= base_url() ?>student/create",
@@ -127,12 +138,12 @@
       },
       beforeSend: function()
       {
-  
+
       },
       success: function(data)
       {
         data = JSON.parse(data);
-        $.each(data, function(i, student){          
+        $.each(data, function(i, student){
           $('#student-list').append("<tr id='student-row-"+student.id+"' > <td class='student-no' >"+ (parseInt($('.student-no:last').html())+1) +"</td> <td>"+student.code+"</td> <td>"+student.name_khmer+"</td> <td>"+student.latin_name+"</td> <td>"+student.gender+"</td> <td>"+student.phone+"</td> <td>"+student.dob+"</td> <td><span class='link' onclick='editStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-edit' ></i></span> <span class='link' onclick='showStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-eye' ></i></span> <span class='link' onclick='confirm(\"Are you sure to delete?\", \"deleteStudent("+student.id +")\")' ><i class='fa fa-times-circle' ></i></span> </td> </tr>")
         });
       }
@@ -151,7 +162,7 @@
     $('#student-form').modal();
   }
   function updateStudent(){
-    
+
   }
   function deleteStudent(id){
     $.ajax({
@@ -162,11 +173,11 @@
       },
       beforeSend: function()
       {
-        
+
       },
       success: function(data)
       {
-        $('#student-row-'+id).remove(); 
+        $('#student-row-'+id).remove();
       }
     });
   }
