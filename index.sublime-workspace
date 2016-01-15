@@ -1,1 +1,1073 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stu",
+				"student"
+			],
+			[
+				"stud",
+				"student"
+			],
+			[
+				"st",
+				"student"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"gen",
+				"generate_code"
+			],
+			[
+				"studne-r",
+				"student-form-result"
+			],
+			[
+				"latin",
+				"latin_name"
+			],
+			[
+				"get",
+				"getHours"
+			],
+			[
+				"to",
+				"todays"
+			],
+			[
+				"dis",
+				"display-time"
+			],
+			[
+				"include",
+				"include_files"
+			],
+			[
+				"confirm",
+				"confirm-modal"
+			],
+			[
+				"show",
+				"show-map"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"_y",
+				"_y2"
+			],
+			[
+				"_x",
+				"_x2"
+			],
+			[
+				"_",
+				"_y1"
+			],
+			[
+				"x",
+				"_x1"
+			],
+			[
+				"cha",
+				"change-profile-modal"
+			],
+			[
+				"initializeM",
+				"initializeMap"
+			],
+			[
+				"co",
+				"coords"
+			],
+			[
+				"inti",
+				"initGeolocation"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"contact",
+				"contact_email"
+			],
+			[
+				"contac",
+				"contact_email"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"selec",
+				"Selected"
+			],
+			[
+				"deliv",
+				"is_delivery"
+			],
+			[
+				"deli",
+				"delivery-service"
+			],
+			[
+				"updated",
+				"updated_at"
+			],
+			[
+				"general_pub",
+				"general_publish"
+			],
+			[
+				"edit",
+				"edit-post-status"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"seg",
+				"segment"
+			],
+			[
+				"view",
+				"view_profile"
+			],
+			[
+				"main",
+				"main_page"
+			],
+			[
+				"user",
+				"userdata"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"img",
+				"img_link"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"value",
+				"values"
+			],
+			[
+				"raw",
+				"rawurlencode"
+			],
+			[
+				"bas",
+				"base64_encode"
+			],
+			[
+				"phani",
+				"phanith_admin"
+			],
+			[
+				"ma",
+				"market_id"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"msg",
+				"msg_content"
+			],
+			[
+				"rela",
+				"related_user"
+			],
+			[
+				"lo",
+				"loadInbox"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"is",
+				"is_login"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"image",
+				"image_name"
+			],
+			[
+				"system",
+				"systemsecurity"
+			],
+			[
+				"mysql_re",
+				"mysql_real_escape_string"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"onl",
+				"onclick	Attr"
+			],
+			[
+				"marke",
+				"market_name"
+			],
+			[
+				"change-sh",
+				"change-shop-info-result"
+			],
+			[
+				"change-s",
+				"change-shop-info-modal"
+			],
+			[
+				"mar",
+				"marketName"
+			],
+			[
+				"change",
+				"change-shop-info-result"
+			],
+			[
+				"txt",
+				"txt-market-name"
+			],
+			[
+				"_market",
+				"_marketType"
+			],
+			[
+				"txt-mar",
+				"txt-market-type"
+			],
+			[
+				"_mar",
+				"_marketName"
+			],
+			[
+				"txt-marke",
+				"txt-market-name"
+			],
+			[
+				"countr",
+				"country_name_kh"
+			],
+			[
+				"count",
+				"country"
+			],
+			[
+				"country",
+				"country_name_en"
+			],
+			[
+				"place",
+				"place_description"
+			],
+			[
+				"return",
+				"returnTrue"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sign",
+				"signup"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/controllers/student.php",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/students/_form.php",
+			"settings":
+			{
+				"buffer_size": 7609,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/user_model.php",
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/student_model.php",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/students/index.php",
+			"settings":
+			{
+				"buffer_size": 3184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/coe_style.css",
+			"settings":
+			{
+				"buffer_size": 4359,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/library_management",
+		"/C/wamp/www/library_management/application",
+		"/C/wamp/www/library_management/application/config",
+		"/C/wamp/www/library_management/application/controllers",
+		"/C/wamp/www/library_management/application/models",
+		"/C/wamp/www/library_management/application/views",
+		"/C/wamp/www/library_management/application/views/students"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/library_management/application/controllers/main.php",
+		"/C/wamp/www/library_management/application/models/user_model.php",
+		"/C/wamp/www/library_management/application/config/autoload.php",
+		"/C/wamp/www/library_management/application/views/include_files/header.php",
+		"/C/wamp/www/library_management/application/controllers/authorize.php",
+		"/C/wamp/www/library_management/application/views/login.php",
+		"/C/wamp/www/library_management/application/views/include_files/foot.php",
+		"/C/wamp/www/library_management/application/models/student_model.php",
+		"/C/wamp/www/library_management/application/controllers/user.php",
+		"/C/wamp/www/library_management/application/controllers/student.php",
+		"/C/wamp/www/library_management/application/views/students/_form.php",
+		"/C/wamp/www/library_management/application/views/students/index.php",
+		"/C/wamp/www/library_management/application/views/main.php",
+		"/C/wamp/www/library_management/application/views/include_files/_clock.php",
+		"/C/wamp/www/library_management/application/views/include_files/head.php",
+		"/C/wamp/www/library_management/application/views/include_files/footer.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_edit_profile.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_front.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_routes_map.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_show_post.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_post.php",
+		"/C/wamp/www/olymart.com/application/controllers/user.php",
+		"/C/wamp/www/olymart.com/application/models/user_model.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_user_profile.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_add_address.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_front.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_profile.php",
+		"/C/wamp/www/olymart.com/application/language/kh/profile_lang.php",
+		"/C/wamp/www/olymart.com/application/language/en/profile_lang.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_user.php",
+		"/C/wamp/www/olymart.com/assets/css/custom_style.css",
+		"/C/wamp/www/olymart.com/application/language/en/form_lang.php",
+		"/C/wamp/www/olymart.com/application/language/kh/form_lang.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_post.php",
+		"/C/wamp/www/olymart.com/application/models/select_post_model.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_signup.php",
+		"/C/wamp/www/olymart.com/application/models/post_model.php",
+		"/C/wamp/www/olymart.com/application/language/kh/login_lang.php",
+		"/C/wamp/www/olymart.com/application/language/en/login_lang.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_forgot_password.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_login.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_email_verify.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_change_profile_picture.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_my_post.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_post_form.php",
+		"/C/wamp/www/olymart.com/application/libraries/date.php",
+		"/C/wamp/www/olymart.com/application/libraries/ip_address.php",
+		"/C/wamp/www/olymart.com/application/controllers/post.php",
+		"/C/wamp/www/olymart.com/application/language/kh/general_lang.php",
+		"/C/wamp/www/olymart.com/application/language/en/general_lang.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_load_config.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_report_user.php",
+		"/C/wamp/www/olymart.com/application/views/login.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_chat.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_foot.php",
+		"/C/wamp/www/olymart.com/assets/js/custom_js.js",
+		"/C/wamp/www/olymart.com/application/views/web/include_notification_alert.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_purchase_order.php",
+		"/C/wamp/www/olymart.com/application/config/config.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_purchase_order.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_sale_order.php",
+		"/C/wamp/www/olymart.com/assets/css/mobile_custom_style.css",
+		"/C/wamp/www/olymart.com/application/views/web/view_sale_order.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_user_info_modal.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_product_info_modal.php",
+		"/C/wamp/www/php_test_file/index.php",
+		"/C/wamp/www/php_test_file/text.txt",
+		"/C/wamp/www/dictionary/application/views/include_files/header.php",
+		"/C/wamp/www/dictionary/application/views/view_main.php",
+		"/C/wamp/www/dictionary/application/views/edit.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_full_footer.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_head.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_head.php",
+		"/C/wamp/www/olymart.com/application/controllers/phanith_admin.php",
+		"/C/wamp/www/olymart.com/application/views/phanith_admin/home.php",
+		"/C/wamp/www/olymart.com/robots.txt",
+		"/C/wamp/www/olymart.com/application/libraries/OnlineUsers.php",
+		"/C/wamp/www/olymart.com/application/libraries/online_users.php",
+		"/C/wamp/www/olymart.com/application/libraries/online_user.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_user_buyer.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_message.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_main_header.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_message_alert.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_help.php",
+		"/C/wamp/www/olymart.com/application/views/web/view_full_content.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_show_post.php",
+		"/C/wamp/www/olymart.com/application/models/product_type_model.php",
+		"/C/wamp/www/olymart.com/application/models/market_type_model.php",
+		"/C/wamp/www/olymart.com/application/views/view_phanith_admin.php",
+		"/C/wamp/www/olymart.com/application/views/phanith_admin/market_type_manager.php",
+		"/C/wamp/www/olymart.com/application/views/phanith_admin/include_message_alert.php",
+		"/C/wamp/www/olymart.com/assets/css/admin_style.css",
+		"/C/wamp/www/olymart.com/assets/js/check_input_js.js",
+		"/C/wamp/www/olymart.com/application/views/phanith_admin/user_manager.php",
+		"/C/wamp/www/olymart.com/application/views/phanith_admin/ads_manager.php",
+		"/C/wamp/www/olymart.com/application/models/ads_model.php",
+		"/C/wamp/www/olymart.com/application/views/phanith_admin/country_manager.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_signup.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_add_address.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_user.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_message.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_help.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_email_verify.php",
+		"/C/wamp/www/olymart.com/assets/js/chat_components.js",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_foot.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_chat.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/view_login.php",
+		"/C/wamp/www/olymart.com/application/language/en/report_lang.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_change_profile_picture.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_user_profile.php",
+		"/C/wamp/www/olymart.com/.htaccess",
+		"/C/wamp/www/olymart.com/application/config/database.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_my_post.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_main_header.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_filter_sidebar.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_suggest_signin.php",
+		"/C/wamp/www/olymart.com/application/views/mobile/include_post_form.php",
+		"/C/wamp/www/olymart.com/application/models/security_model.php",
+		"/C/wamp/www/olymart.com/application/views/web/include_search.php",
+		"/C/wamp/www/olymart.com/application/models/m_security.php",
+		"/C/wamp/www/olymart.com/application/models/image_model.php",
+		"/C/wamp/www/olymart.com/application/models/m_upload_image.php",
+		"/C/wamp/www/olymart.com/application/libraries/string.php",
+		"/C/wamp/www/olymart.com/application/models/do_post.php",
+		"/C/wamp/www/olymart.com/application/controllers/upload.php",
+		"/C/wamp/www/olymart.com/application/libraries/image.php",
+		"/C/wamp/www/olymart.com/application/config/autoload.php",
+		"/C/wamp/www/olymart.com/application/libraries/system_security.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scroll",
+			"> ",
+			"name_khmer",
+			"name_khr",
+			"name_khmer",
+			"-121.884886",
+			"37.334818",
+			"121",
+			"37",
+			"121.884886",
+			"37.334818",
+			"text",
+			"hidden",
+			"place_description",
+			"latitude",
+			"text",
+			"lat:",
+			"col-md-9",
+			"add_address",
+			"phone",
+			"u.lastname, u.phone, u.email, market_type,",
+			"u.email, market_type,",
+			"u.lastname, u.phone",
+			"contact_email",
+			"signup",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"upload",
+			"get_all_post_by_user",
+			"get_all_post_by_user_i",
+			"get_all_post_by_user_id",
+			"country_id, address",
+			"search",
+			"country_id, address,",
+			"rec",
+			"record",
+			"image_name",
+			"exis",
+			"file_es",
+			"\n",
+			"#share_butto",
+			"#share_button",
+			"show_post",
+			"share",
+			"id",
+			"value",
+			"encrypted_id",
+			"div",
+			"general_button_inbox",
+			"background-color",
+			"2",
+			"tbl_address",
+			"rec",
+			"function like",
+			"rec",
+			"\n",
+			" \n",
+			"\n",
+			"no-i",
+			"image",
+			"                <",
+			">\n",
+			"\n",
+			"\\s+",
+			"image",
+			"no",
+			"image",
+			"word",
+			"myTimer",
+			"chat",
+			"php ech",
+			"php echo",
+			"check_password_score",
+			"image",
+			"components/dist/js/app.min.js",
+			"http://localhost:81/olymart.com/components/dist/js/app.min.js",
+			"}\n",
+			"include",
+			"image",
+			"images",
+			"image",
+			"trim",
+			"sound",
+			"scroll",
+			"scrollup",
+			"  \n",
+			"()){\n",
+			"chart_on",
+			"chatOn",
+			"chat_on",
+			"get_unread",
+			"group",
+			"</b>",
+			"<b>",
+			"function check_login",
+			"check_login",
+			"login",
+			"img",
+			"document.getElementById",
+			";\n",
+			"block",
+			"<?",
+			"path",
+			"m_upload_image",
+			"model",
+			"new_post",
+			"add_post",
+			"img_name",
+			"get_date_now",
+			"get_client_ip",
+			"ip_address",
+			"ajax",
+			"(){\n",
+			"Delete",
+			".'\\',\\''.$",
+			"ajax_",
+			"()){",
+			"main_p",
+			"$all_mark",
+			"all_mark",
+			"button",
+			"<?",
+			"view_add",
+			"            \n",
+			"ua ",
+			"ua"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tbl_address.contact_email, market_type,",
+			"u.lastname, tbl_address.contact_phone",
+			"country_id, address, is_delivery, updated_at",
+			" ",
+			"load_view"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/controllers/student.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/students/_form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3433,
+								3433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1800.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/models/user_model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/models/student_model.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/views/students/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2074,
+								2074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/css/coe_style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3376,
+								3382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 3041.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"assets\\css\\coe_style.css"
+			],
+			[
+				"view_front",
+				"application\\views\\mobile\\view_front.php"
+			],
+			[
+				"include_post",
+				"application\\views\\mobile\\include_post.php"
+			],
+			[
+				"user_mode",
+				"application\\models\\user_model.php"
+			],
+			[
+				"user",
+				"application\\controllers\\user.php"
+			],
+			[
+				"view_add_addre",
+				"application\\views\\web\\view_add_address.php"
+			],
+			[
+				"include_show",
+				"application\\views\\web\\include_show_post.php"
+			],
+			[
+				"custo",
+				"assets\\css\\custom_style.css"
+			],
+			[
+				"form_lang",
+				"application\\language\\kh\\form_lang.php"
+			],
+			[
+				"user_mod",
+				"application\\models\\user_model.php"
+			],
+			[
+				"view_profile",
+				"application\\views\\web\\view_profile.php"
+			],
+			[
+				"post_model",
+				"application\\models\\post_model.php"
+			],
+			[
+				"view_user",
+				"application\\views\\web\\view_user.php"
+			],
+			[
+				"view_message",
+				"application\\views\\mobile\\view_message.php"
+			],
+			[
+				"mobile/view_si",
+				"application\\views\\mobile\\view_signup.php"
+			],
+			[
+				"mobile/add",
+				"application\\views\\mobile\\view_add_address.php"
+			],
+			[
+				"mobile/login",
+				"application\\views\\mobile\\view_login.php"
+			],
+			[
+				"custom",
+				"assets\\css\\custom_style.css"
+			],
+			[
+				"mobile/ver",
+				"application\\views\\mobile\\view_email_verify.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
