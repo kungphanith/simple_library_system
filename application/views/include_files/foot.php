@@ -20,6 +20,7 @@
 				$('#confirm-text').html(body);
 				$('#confirm-yes').attr('onclick',event);
 				$('#confirm-modal').modal();
+				$('#confirm-yes').focus();
 			}
 		</script>
 

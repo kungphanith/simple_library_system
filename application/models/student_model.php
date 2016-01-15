@@ -24,7 +24,7 @@ class Student_model extends CI_Model{
 		}
 	}
 	function generate_code($id){
-    $id = str_pad($id, 4, '0', STR_PAD_LEFT);
+    $id = str_pad($id, 5, '0', STR_PAD_LEFT);
     return "LBP".$id;
   }
 }
