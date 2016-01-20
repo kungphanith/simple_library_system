@@ -229,7 +229,21 @@
 .link:hover{
 	color: #aaa;
 }
-
+.hide{
+	display: none;
+}
+.table-student-info tr th {
+	padding-right: 20px;
+}
+.table-info tr th {
+	padding-right: 20px;
+}
+.table-student-info tr th:first {
+	padding-left: 0px;
+}
+.list-row{
+	white-space: nowrap;
+}
 /*overide*/
 .form-control{
 	border-radius: 0px !important;

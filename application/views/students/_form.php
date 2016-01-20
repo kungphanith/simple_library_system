@@ -12,6 +12,7 @@
 
           <div class="form-group">
             <label for="name-khmer" >ឈ្មោះខ្មែរ</label>
+            <input type="hidden"  id="id" >
             <input type="text" class="form-control" id="name-khmer" tabindex="1" required >
           </div>
 
@@ -112,24 +113,25 @@
           window.location = "<?= base_url() ?>";
         }
         else{
-          // console.log(data);
           data = JSON.parse(data);
           $.each(data, function(i, student){
-            // $('#student-list').html($('#word-result-list').html()+"<p id='word-"+word.id+"' onclick='display_word("+word.id+", \""+word.word+"\","+word.pos_id+", \""+word.description+"\"  )' >"+word.word+" <i>("+word.abbraviation+")</i> </p>");
             $('#student-list').append("<tr id='student-row-"+student.id+"' > <td class='student-no' >"+ (parseInt($('.student-no:last').html())+1) +"</td> <td>"+student.code+"</td> <td>"+student.name_khmer+"</td> <td>"+student.latin_name+"</td> <td>"+student.gender+"</td> <td>"+student.phone+"</td> <td>"+student.dob+"</td> <td><span class='link' onclick='editStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-edit' ></i></span> <span class='link' onclick='showStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-eye' ></i></span> <span class='link' onclick='confirm(\"Are you sure to delete?\", \"deleteStudent("+student.id +")\")' ><i class='fa fa-times-circle' ></i></span> </td> </tr>")
           });
           $('#student-form-result').html('Save Completed');
         }
-
-        // data = JSON.parse(data);
-        // data = data[0];
-        // $('#word-result-show').html("<h4>"+data.word+" <i> ("+data.abbraviation+") </i> </h4><p style='color: black' >"+data.description+"</p><br><img src='<?= base_url() ?>public/images/"+ data.image +"' width='150px' /> ");
       }
     });
     $('.form-control').val('');
   }
 
-  function search(keyword){
+  function searchStudent(keyword){
+    if (keyword.length <2){
+      $("#student-list").show('');
+      $("#student-search-list").hide('');
+      return;
+    }
+    $("#student-list").hide('');
+    $("#student-search-list").show('').removeClass("hide");
     $.ajax({
       type: "POST",
       url: "<?= base_url() ?>student/search",
@@ -138,19 +140,26 @@
       },
       beforeSend: function()
       {
-
+        $('#student-search-list').html("<tr> <td colspan='8'> Searching .... </td> </tr>")
       },
       success: function(data)
       {
-        data = JSON.parse(data);
-        $.each(data, function(i, student){
-          $('#student-list').append("<tr id='student-row-"+student.id+"' > <td class='student-no' >"+ (parseInt($('.student-no:last').html())+1) +"</td> <td>"+student.code+"</td> <td>"+student.name_khmer+"</td> <td>"+student.latin_name+"</td> <td>"+student.gender+"</td> <td>"+student.phone+"</td> <td>"+student.dob+"</td> <td><span class='link' onclick='editStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-edit' ></i></span> <span class='link' onclick='showStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-eye' ></i></span> <span class='link' onclick='confirm(\"Are you sure to delete?\", \"deleteStudent("+student.id +")\")' ><i class='fa fa-times-circle' ></i></span> </td> </tr>")
-        });
+        if (data=="[]"){
+          $('#student-search-list').html("<tr> <td colspan='8'> No result found for your keyword </td> </tr>")
+        }
+        else{
+          data = JSON.parse(data);
+          $.each(data, function(i, student){
+            $('#student-search-list').html("<tr id='student-row-"+student.id+"' > <td class='student-no' >"+ (parseInt($('.student-no:last').html())+1) +"</td> <td>"+student.code+"</td> <td>"+student.name_khmer+"</td> <td>"+student.latin_name+"</td> <td>"+student.gender+"</td> <td>"+student.phone+"</td> <td>"+student.dob+"</td> <td><span class='link' onclick='editStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-edit' ></i></span> <span class='link' onclick='showStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-eye' ></i></span> <span class='link' onclick='confirm(\"Are you sure to delete?\", \"deleteStudent("+student.id +")\")' ><i class='fa fa-times-circle' ></i></span> </td> </tr>")
+          });  
+        }
       }
     });
   }
 
   function editStudent(id, name_khmer, latin_name, gender, phone, email, dob, school_name, other){
+    $('#student-form-save').attr("onclick", "updateStudent("+id+")");
+    $('#id').val(id);
     $('#name-khmer').val(name_khmer);
     $('#latin-name').val(latin_name);
     $('#gender').val(gender);
@@ -161,8 +170,52 @@
     $('#other').val(other);
     $('#student-form').modal();
   }
-  function updateStudent(){
+  function updateStudent(id){
+    if ($('input[required]').val() == ""){
+      $('#student-form-result').html('Please select required field');
+      $('input[required]').css('border', "1px solid red");
+      return;
+    }
+    else{
+      $('input[required]').css('border', "1px solid #bbb");
+    }
+    $.ajax({
+      type: "POST",
+      url: "<?= base_url() ?>student/update",
+      data: {
+        id: $('#id').val(),
+        name_khmer: $('#name-khmer').val(),
+        latin_name: $('#latin-name').val(),
+        gender: $('#gender').val(),
+        phone: $('#phone').val(),
+        email: $('#email').val(),
+        dob: $('#dob').val(),
+        school_name: $('#school-name').val(),
+        other: $('#other').val()
+      },
+      beforeSend: function()
+      {
+        $('#student-form-result').html('Saving Please Waiting...');
+      },
+      success: function(data)
+      {
+        if (data.charAt(0) == "<"){
+          $('#student-form-result').html('Fail to save, please Login');
+          window.location = "<?= base_url() ?>";
+        }
+        else{
+          data = JSON.parse(data);
+          $.each(data, function(i, student){
+            $('#student-row-'+id).html("<td class='student-no' >"+ (parseInt($('#student-row-'+id+' .student-no').html())) +"</td> <td>"+student.code+"</td> <td>"+student.name_khmer+"</td> <td>"+student.latin_name+"</td> <td>"+student.gender+"</td> <td>"+student.phone+"</td> <td>"+student.dob+"</td> <td><span class='link' onclick='editStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\" )' ><i class='fa fa-edit' ></i></span> <span class='link' onclick='showStudent(" + student.id + ", \"" + student.name_khmer + "\", \""+ student.latin_name + "\", \"" + student.gender + "\", \""+ student.phone + "\", \""+ student.email +"\", \""+ student.dob +"\", \"" + student.school_name + "\", \""+ student.other +"\", \""+ student.code +"\" )' ><i class='fa fa-eye' ></i></span> <span class='link' onclick='confirm(\"Are you sure to delete?\", \"deleteStudent("+student.id +")\")' ><i class='fa fa-times-circle' ></i></span> </td>");
+          });
+          $('#student-form-result').html('Save Completed');
+          $('#student-search-list').hide();
+          $('#student-list').show();
 
+        }
+      }
+    });
+    $('.form-control').val('');
   }
   function deleteStudent(id){
     $.ajax({

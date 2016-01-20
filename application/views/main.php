@@ -35,49 +35,37 @@
 						</div>
 					</div>
 				</a>
-				<a href="<?= base_url() ?>equipment/" >
+				<!-- <a href="<?= base_url() ?>equipment/" >
 					<div class="col-md-4 menu-box">
 						<div class="menu-item text-center">
-							<!-- <img class="icon" src="assets/images/no-image.jpg" /> -->
+							<img class="icon" src="assets/images/no-image.jpg" />
 							<i class="fa fa-cubes" style="font-size: 60px; color:white;"></i>
 							<br>
 							<span class="title">គ្រប់គ្រងឧបករណ៍ប្រើប្រាស់</span>
 						</div>
 					</div>
-				</a>
-				<a href="<?= base_url() ?>user/" >
+				</a> -->
+				<!-- <a href="<?= base_url() ?>user/" >
 					<div class="col-md-4 menu-box">
 						<div class="menu-item text-center">
-							<!-- <img class="icon" src="assets/images/no-image.jpg" /> -->
+							 <img class="icon" src="assets/images/no-image.jpg" />
 							<i class="fa fa-user" style="font-size: 60px; color:white;"></i>
 							<br>
 							<span class="title">គ្រប់គ្រងអ្នកប្រើប្រាស់</span>
 						</div>
 					</div>
-				</a>
+				</a> -->
 			</div>
 			<div class="col-sm-4 panel-body coe-panel-right" id="search-panel" >
-	            <input type="text" name="keyword" class="form-control" placeholder="សរសេរដើម្បីស្វែងរក" oninput="search(this.value)" >
+	            <h3 class="color-white">ផ្ទាំងជម្រើសកម្មវិធី</h3>
 	            <hr>
 	            <div class="color-white" id="word-result-list " style="height: 60%" >
-								<h4>System Status</h4>
-								<table border="0px" class="color-white" >
-									<tr>
-										<td>Total Student</td>
-										<td>: 340 student</td>
-									</tr>
-									<tr>
-										<td>Total Books</td>
-										<td>: 43340</td>
-									</tr>
-									<tr>
-										<td>Total Borowed</td>
-										<td>: 443340</td>
-									</tr>
-								</table>
 								<br>
 								<br>
 								<?php include("application/views/include_files/_clock.php") ?>
+	            </div>
+	            <div class="color-white" >
+	            	រក្សាសិទ្ធ &copy; 2016 បង្កើតដោយ លោក គង់ ផាណីត
 	            </div>
 			</div>
 		</div>
