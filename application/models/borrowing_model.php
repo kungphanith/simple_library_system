@@ -59,6 +59,7 @@ class Borrowing_model extends CI_Model{
     return "B".$id;
   }
   function search($keyword){
+  	
   	$query = $this->db->query('SELECT borrowing.* , student.name_khmer as student_name, lender.full_name_kh as lender_name, reciever.full_name_kh as reciever_name, book.title as book_title
 		FROM borrowing
 		LEFT JOIN student on student.id = borrowing.student_id
@@ -69,8 +70,7 @@ class Borrowing_model extends CI_Model{
 		and student.name_khmer like "%'.$keyword.'%" or book.title like "%'.$keyword.'%"
 		or borrowing.borrow_at like "%'.$keyword.'%"
 		ORDER BY borrow_at desc');
-
-  	return $query->result();
+  	return $query;
   }
 }
 ?>

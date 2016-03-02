@@ -9,9 +9,9 @@
          	<thead>
             <tr style="white-space: nowrap;">
               <th>លរ</th>
-							<th>ឈ្មោះសៀវភៅ</th>
-							<th>ឈ្មោះសិស្ស</th>
-							<th>អ្នកឱ្យខ្ចី</th>
+				<th>ឈ្មោះសៀវភៅ</th>
+				<th>ឈ្មោះសិស្ស</th>
+				<th>អ្នកឱ្យខ្ចី</th>
               <th>អ្នកទទួល</th>
               <th>ថ្ងៃខ្ចី</th>
               <th>ថ្ងៃសង</th>
@@ -46,6 +46,8 @@
 				<h4 class="color-white" ><i class="fa fa-group" ></i> គ្រប់គ្រងពត៌មានសិស្ស</h4>
         <hr style="border: 1px solid #fff">
 	            <input type="text" name="keyword" class="form-control" placeholder="ស្វែងរក....." oninput="searchBorrowing(this.value)" >
+	            <br>
+	            <p class="color-white" >*Note: To search by borrow date please follow Example: 2016-03-25</p>
 	            <hr>
 	            <div class="color-white" id="word-result-list " style="height: 60%" >
 								<div style="height: 30%">

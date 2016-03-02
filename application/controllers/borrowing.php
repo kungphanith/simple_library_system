@@ -58,8 +58,8 @@ class Borrowing extends CI_Controller {
   function search(){
     $keyword = $this->input->post('keyword');
     $this->load->model('borrowing_model');
-    $result = $this->borrowing_model->search($keyword);
-    echo json_encode($result);
+    $query = $this->borrowing_model->search($keyword);
+    echo json_encode($query->result());
   }
 
   function do_return_book(){
